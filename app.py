@@ -39,10 +39,10 @@ for column, column_properties in schema['column_info'].items():
         options[column] = st.sidebar.selectbox(column, column_properties['values'])
 
 # Load model and encoder
-with open('xg.pkl, 'rb') as f:
+with open('xg.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('encoder.pkl, 'rb') as f:
+with open('encoder.pkl', 'rb') as f:
     onehot = pickle.load(f)
 
 mean_eve_mins = 200.29
