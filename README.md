@@ -2,6 +2,8 @@
 
 Esta aplicación utiliza Machine Learning para predecir si un cliente va a abandonar un servicio (hacer _churn_). La aplicación está desarrollada con Python y Streamlit, permitiendo una interfaz de usuario interactiva y fácil de usar para realizar predicciones basadas en los datos proporcionados.
 
+![Interfaz de Usuario](images/cap1.png)
+
 ## Uso
 
 #### 1. Ingresar características del cliente
@@ -15,6 +17,8 @@ Haz clic en el botón "Predecir" para obtener el resultado.
 #### 3. Ver resultados históricos
 
 Revisa la sección de "Predicciones Históricas" para analizar predicciones anteriores.
+
+![Interfaz de Usuario](images/cap2.png)
 
 ## Estructura del Proyecto
 
