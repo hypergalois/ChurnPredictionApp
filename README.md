@@ -1,41 +1,41 @@
 # Predict Customer Churn with Streamlit 🚀
 
-Esta aplicación utiliza Machine Learning para predecir si un cliente va a abandonar un servicio (hacer _churn_). La aplicación está desarrollada con Python y Streamlit, permitiendo una interfaz de usuario interactiva y fácil de usar para realizar predicciones basadas en los datos proporcionados.
+This application uses Machine Learning to predict whether a customer will leave a service (_churn_). The app is developed with Python and Streamlit, providing an interactive and user-friendly interface to make predictions based on provided data.
 
-![Interfaz de Usuario](img/cap1.png)
+![User Interface](img/cap1.png)
 
-## Uso
+## Usage
 
-#### 1. Ingresar características del cliente
+#### 1. Enter Customer Features
 
-Utiliza la barra lateral para ingresar los datos del cliente.
+Use the sidebar to input customer data.
 
-#### 2. Realizar la predicción
+#### 2. Make a Prediction
 
-Haz clic en el botón "Predecir" para obtener el resultado.
+Click the "Predict" button to get the result.
 
-#### 3. Ver resultados históricos
+#### 3. View Historical Results
 
-Revisa la sección de "Predicciones Históricas" para analizar predicciones anteriores.
+Check the "Historical Predictions" section to analyze past predictions.
 
-![Interfaz de Usuario](img/cap2.png)
+![User Interface](img/cap2.png)
 
-## Estructura del Proyecto
+## Project Structure
 
-`app.py`: Código principal de la aplicación Streamlit.
+`app.py`: Main code for the Streamlit application.
 
-`utils.py`: Funciones auxiliares, incluyendo la transformación de datos.
+`utils.py`: Helper functions, including data transformation.
 
-`data/`: Contiene archivos de datos necesarios, como `schema.json` y `historical_data.csv`.
+`data/`: Contains necessary data files such as `schema.json` and `historical_data.csv`.
 
-`models/`: Contiene los modelos preentrenados (`xg.pkl` y `encoder.pkl`).
+`models/`: Contains pretrained models (`xg.pkl` and `encoder.pkl`).
 
-`requirements.txt`: Lista de dependencias necesarias para ejecutar la aplicación.
+`requirements.txt`: List of dependencies required to run the application.
 
-## Contribuciones
+## Contributions
 
-Las contribuciones son bienvenidas. Si tienes ideas para mejorar esta aplicación, por favor abre un issue o crea un pull request.
+Contributions are welcome. If you have ideas to improve this application, please open an issue or create a pull request.
 
-## Licencia
+## License
 
-Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
